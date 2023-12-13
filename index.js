@@ -54,7 +54,7 @@ readdirSync('./dLog').forEach(category => {
     })
 })
 client.login(config.bot.token)
-/*
+
 process.on("unhandledRejection", (reason, p) => {
     console.log(chalk.blue(`${reason} ${p}`));
 })
